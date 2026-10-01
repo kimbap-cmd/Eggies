@@ -1,0 +1,24 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# buildozer / android
+android-starter/.buildozer/
+android-starter/bin/
+*.apk
+*.aab
+
+# editors / os
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# anything the pet generates at runtime
+*.wav
+pet.json
+config.json
+notif_seen.json
